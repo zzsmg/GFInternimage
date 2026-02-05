@@ -1,13 +1,5 @@
 
 
-# [DCNv4](https://arxiv.org/pdf/2401.06197.pdf)
-
-
-## News
-- `Jan 15, 2024`: 🚀 Compared with InternImage, the new FlashInternImage powered with DCNv4 has faster inference speed, faster convergence, and better performance!!!
-- `Jan 15, 2024`: 🚀 "DCNv4" is released！
-
-
 ## Introduction
 We introduce Deformable Convolution v4 (DCNv4), a highly efficient and effective operator designed for a broad spectrum of vision applications. DCNv4 addresses the limitations of its predecessor, DCNv3, with two key enhancements: 1. removing softmax normalization in spatial aggregation to enhance its dynamic property and expressive power and 2. optimizing memory access to minimize redundant operations for speedup. These improvements result in a significantly faster convergence compared to DCNv3 and a substantial increase in processing speed, with DCNv4 achieving more than three times the forward speed.
 DCNv4 demonstrates exceptional performance across various tasks, including image classification, instance and semantic segmentation, and notably, image generation. 
